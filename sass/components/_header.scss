@@ -1,0 +1,15 @@
+.header {
+  padding: 1em 4em;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+
+  a {
+    color: $secondary-color;
+  }
+
+  &__left--link {
+      font-weight: 900;
+  }
+}

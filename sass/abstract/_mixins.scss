@@ -1,0 +1,7 @@
+@mixin form {
+    height: 3em;
+    background-color: white;
+    color: $tertiary-color;
+    border: none;
+    border-radius: .2em;
+}

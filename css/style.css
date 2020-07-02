@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.header {
+  padding: 1em 4em;
+  display: flex;
+  justify-content: space-between;
+  background-color: white; }
+  .header a {
+    color: #111517; }
+  .header__left--link {
+    font-weight: 900; }
+
+.country-container {
+  max-width: 1200px;
+  margin: 2em auto;
+  grid-row-gap: 40px;
+  grid-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 40px; }
+
+.country {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  grid-row-end: span 5; }
+  .country__details {
+    background-color: white;
+    padding: 1em;
+    line-height: 1.4em; }
+    .country__details--name {
+      font-size: 1.2em;
+      font-weight: 700;
+      padding: 1em 0; }
+    .country__details span {
+      padding-right: 0.3em;
+      font-weight: 600; }
+  .country__image {
+    object-fit: cover;
+    height: 10em;
+    width: 100%; }
+
+.query-con {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em; }
+
+.search__field {
+  width: 30em;
+  height: 3em;
+  background-color: white;
+  color: #858585;
+  border: none;
+  border-radius: .2em; }
+
+#myList {
+  width: 18em;
+  height: 3em;
+  background-color: white;
+  color: #858585;
+  border: none;
+  border-radius: .2em; }
+  #myList select {
+    border: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; }

@@ -1,0 +1,42 @@
+.country-container {
+  max-width: 1200px;
+  margin: 2em auto;
+  grid-row-gap: 40px;
+  grid-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 40px;
+}
+
+.country {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  grid-row-end: span 5;
+
+  &__details {
+    background-color: white;
+    padding: 1em;
+    line-height: 1.4em;
+
+    &--name {
+      font-size: 1.2em;
+      font-weight: 700;
+      padding: 1em 0;
+    }
+
+    span {
+      padding-right: 0.3em;
+      font-weight: 600;
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    height: 10em;
+    width: 100%;
+  }
+}

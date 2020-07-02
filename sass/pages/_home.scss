@@ -1,0 +1,25 @@
+.query-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.search__field {
+    width: 30em;
+    @include form;
+}
+
+
+#myList {
+    width: 18em;
+    @include form;
+
+    select {
+        border: 0;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+}
+
